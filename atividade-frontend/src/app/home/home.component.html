@@ -1,0 +1,90 @@
+<section class="conteiner">
+
+    <section class="div1">
+        <div>
+            <img src="../../assets/img/businessman-3213659_1920.jpg" width="940vh">
+        </div>
+    </section>
+
+    <section class="div2">
+        <div>
+            <img src="../../assets/img/learn-3653430_1920.jpg" width="300vh">
+        </div>
+        <div>
+            <img src="../../assets/img/laptop-336378_1920.jpg" width="300vh">
+        </div>
+        <div>
+            <img src="../../assets/img/workplace-5517762_1920.jpg" width="300vh">
+        </div>
+    </section>
+
+    <section class="div3">
+        <section>
+            <div>
+                <form [formGroup]="msgForm">
+                    <mat-card-content class="form">
+                        <div>
+                            <mat-form-field>
+                                <input matInput placeholder="Nome:" type="text" formControlName="nome">
+                            </mat-form-field>
+                        </div>
+                        <div>
+                            <mat-form-field>
+                                <input matInput placeholder="Email:" type="email" formControlName="email">
+                            </mat-form-field>
+                        </div>
+                        <div>
+                            <mat-form-field>
+                                <input matInput placeholder="Fone:" type="text" formControlName="fone">
+                            </mat-form-field>
+                        </div>
+                        <div>
+                            <mat-form-field>
+                                <input matInput placeholder="Mensagem:" type="text" formControlName="mensagem">
+                                <textarea matInput></textarea>
+                            </mat-form-field>
+                        </div>
+                        <div class="button">
+                            <button mat-raised-button color="primary" (click)="createMsg()">Enviar</button>
+                        </div>
+                        <div class="button">
+                            <button mat-raised-button color="primary" (click)="cancelarMsg()"> Cancelar </button>
+                        </div>
+                    </mat-card-content>
+                </form>
+            </div>
+        </section>
+
+        <section class="redes_contatos">
+            <div>
+                <div>
+                    <p>
+                        <mat-icon> location_on </mat-icon> Recife-PE
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <mat-icon> mail_outline </mat-icon> daniel.alexandre22@hotmail.com
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <mat-icon> phone</mat-icon> (87) 99972-2467
+                    </p>
+                </div>
+            </div>
+            <div class="imagens_redes">
+                    <div>
+                        <a href=""><img src="../../assets/img/social-media-5995266_640.png" width="50vh"></a>
+                    </div>
+                    <div>
+                        <a href=""><img src="../../assets/img/social-media-5995266_641.png" width="50vh"></a>
+                    </div>
+                    <div>
+                        <a href=""><img src="../../assets/img/social-media-5995266_643.png" width="50vh"></a>
+                    </div>
+            </div>
+        </section>
+    </section>
+
+</section>

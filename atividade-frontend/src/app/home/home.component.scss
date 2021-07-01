@@ -1,0 +1,80 @@
+.conteiner{
+    padding-top: 30px;
+    max-width: 940px;
+    margin: 0 auto;
+}
+section.div1{
+    display: flex;
+    justify-content: center;  
+    //box-shadow: 10px 5px 5px gray; 
+    
+}
+
+section.div1 img{
+    border-radius: 10px 10px;
+}
+
+section.div2{
+    display: flex;
+    justify-content: center;
+
+}
+section.div2 img{
+    border-radius: 10px 50px;
+}
+
+section.div2 div{
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    
+}
+
+section.div3{
+    //max-width: 940px;
+}
+
+section.div3{
+    display: flex;
+    justify-content: space-around;
+    background: #e8e8e8;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+section.div3 div{
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px;
+}
+
+section.redes_contatos{
+    margin-top: 20px;
+}
+
+section.redes_contatos div{
+    display: block;
+    padding-top: 10px;
+}
+
+section div.imagens_redes{
+    display: flex;
+
+}
+
+.form{
+    display: block;
+    justify-content: center;
+    
+}
+
+mat-form-field{
+    width: 400px;
+}
+
+.button{
+    
+    float: right;
+}
+
+
